@@ -3,8 +3,8 @@ import React, {useState}from 'react'
 const App = () => {
  const [contact,setTable]=useState([
   {FirstName:'Jayanth', LastName: 'Reddy',  EmailAddress: 'Jayanthchintu@gmail.com'},
-  {FirstName:'Likith', LastName: 'Royal',  EmailAddress: 'Likith@gmail.com'},
-  {FirstName:'Fahad', LastName: 'shaik',  EmailAddress: 'Fahad@gmail.com'},
+  {FirstName:'Dhanush', LastName: 'Royal',  EmailAddress: 'Dhanush@gmail.com'},
+  {FirstName:'Deekshitha', LastName: 'Sirish',  EmailAddress: 'Deekshitha@gmail.com'},
  ])
 
   return (

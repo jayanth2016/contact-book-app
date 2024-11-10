@@ -2,7 +2,7 @@ import React, {useState}from 'react'
 
 const App = () => {
  const [contact,setTable]=useState([
-  {FirstName:'Jayanth', LastName: 'Reddy',  EmailAddress: 'Jayanthchintu@gmail.com'},
+  {FirstName:'Swaroop', LastName: 'Reddy',  EmailAddress: 'swaroopchintu@gmail.com'},
   {FirstName:'Dhanush', LastName: 'Royal',  EmailAddress: 'Dhanush@gmail.com'},
   {FirstName:'Deekshitha', LastName: 'Sirish',  EmailAddress: 'Deekshitha@gmail.com'},
  ])

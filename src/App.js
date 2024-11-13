@@ -16,9 +16,9 @@ const App = () => {
       <th>LastName</th>
       <th>EmailAddress</th>
       </tr>
-      {contact.map((contact,name)=>(
-        <tr key={name}>
-        <td>{name +1}</td>
+      {contact.map((contact,index)=>(
+        <tr key={index}>
+        <td>{index+1}</td>
         <td>{contact.FirstName}</td>
         <td>{contact.LastName}</td>
         <td>{contact.EmailAddress}</td>
